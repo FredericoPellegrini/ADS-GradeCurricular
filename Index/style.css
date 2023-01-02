@@ -1,0 +1,28 @@
+body{
+    border: 0;
+}
+
+
+.mat{
+    width: 130px;
+    height: 120px;
+    background-color: paleturquoise;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -3px;
+}
+
+.ch{
+    width: 130px;
+    height: 23x;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
