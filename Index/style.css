@@ -1,24 +1,58 @@
 body{
     border: 0;
+    background-color: #fdfdfd;
 }
 
+h1, 
+h2,
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
 
 .mat{
-    width: 130px;
-    height: 120px;
-    background-color: paleturquoise;
+    width: 150px;
+    height: 127px;
+    background-color: rgb(255, 255, 255);
     border: 2px solid black;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: -3px;
+    cursor: pointer;
+}
+
+.mat:hover{
+    background-color: #f8f8f8;
+    box-shadow: 1px 1px 15px #f8f8f8;
+}
+
+.blue{
+    background-color: paleturquoise;
+}
+
+.blue:hover{
+    background-color: rgb(148, 231, 231);
+    box-shadow: 1px 1px 15px rgb(148, 231, 231);
+}
+
+.orange{
+    background-color: rgb(248, 157, 52);
+}
+
+.orange:hover{
+    background-color: rgb(226, 143, 49);
+    box-shadow: 1px 1px 15px rgb(226, 143, 49)
 }
 
 .ch{
-    width: 130px;
+    width: 150px;
     height: 23x;
-    background-color: whitesmoke;
+    background-color: #dfdfdf;
     border: 2px solid black;
     text-align: center;
     display: flex;
@@ -26,3 +60,23 @@ body{
     align-items: center;
     margin-top: 0;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+
+.seme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blank{
+    background-color: #FDFDFD;
+    color: #FDFDFD;
+    border: 2px solid #FDFDFD;
+}
+
